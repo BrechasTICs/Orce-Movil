@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Orce Movil</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="brechas">Brechas TIC</string>
+    <string name="user">Código</string>
+    <string name="pass">Cóntraseña</string>
+    <string name="show_user">20104001H</string>
+    <string name="show_pass">*</string>
+
+</resources>
