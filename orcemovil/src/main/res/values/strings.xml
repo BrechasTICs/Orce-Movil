@@ -14,7 +14,7 @@
     <string name="loading">Loading</string>
     <string name="contact">contacto</string>
     <string name="my_email">dan.barreto.dev@gmail.com</string>
-    <string name="sign_in">Ingresar</string>
+    <string name="to_sign_in">Ingresar</string>
     <string name="welcome">Bienvenid@</string>
     <string name="curso_notas">Cursos y Notas</string>
     <string name="ballot_tuition">Boleta de Matrícula</string>
@@ -24,7 +24,7 @@
     <string name="specialty">Especialidad</string>
     <string name="status">Situación</string>
     <string name="condition">Condición</string>
-    <string name="sign_out">Salir</string>
+    <string name="to_sign_out">Salir</string>
     <string name="practice">Práctica</string>
     <string name="lab">Laboratorio</string>
     <string name="monograph">Monografía</string>
@@ -36,5 +36,12 @@
     <string name="avg_lab">Promedio de Laboratorios</string>
     <string name="avg_mon">Promedio de Monografìas</string>
     <string name="avg_final">Promedio Final</string>
+
+    <string name="error">ERROR</string>
+    <string name="user_not_valid">Código no valido</string>
+    <string name="pass_not_valid">Cóntraseña no valida</string>
+    <string name="pass_wrong">Contraseña incorrecta</string>
+    <string name="ok">OK</string>
+    <string name="to_agree">Aceptar</string>
 
 </resources>
