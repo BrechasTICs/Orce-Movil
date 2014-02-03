@@ -9,8 +9,8 @@
     <string name="pass">Contraseña</string>
     <string name="show_user">20104001H</string>
     <string name="show_pass">*****</string>
-    <string name="__user">coduni</string>
-    <string name="__pass">psworce</string>
+    <string name="__user">cod</string>
+    <string name="__pass">psw</string>
     <string name="loading">Loading</string>
     <string name="contact">contacto</string>
     <string name="my_email">dan.barreto.dev@gmail.com</string>
@@ -29,9 +29,9 @@
     <string name="lab">Laboratorio</string>
     <string name="monograph">Monografía</string>
     <string name="exam">Examen</string>
-    <string name="partial">Examen Parcial</string>
-    <string name="final">Examen Final</string>
-    <string name="replacement">Examen Sustituroio</string>
+    <string name="partial_exam">Examen Parcial</string>
+    <string name="final_exam">Examen Final</string>
+    <string name="replacement_exam">Examen Sustituroio</string>
     <string name="avg_practice">Promedio de Prácticas</string>
     <string name="avg_lab">Promedio de Laboratorios</string>
     <string name="avg_mon">Promedio de Monografìas</string>
