@@ -44,4 +44,8 @@
     <string name="ok">OK</string>
     <string name="to_agree">Aceptar</string>
 
+    <string name="url_login">http://www.orce.uni.edu.pe/m/api/login.json.php</string>
+    <string name="url_cursos">http://www.orce.uni.edu.pe/m/api/cursos.json.php</string>
+    <string name="url_notas">http://www.orce.uni.edu.pe/m/api/notas.json.php</string>
+
 </resources>

@@ -31,7 +31,8 @@
         android:layout_height="match_parent">
 
         <LinearLayout style="@style/LoginFormContainer"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:weightSum="1">
 
             <EditText
                 android:id="@+id/username"
@@ -41,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="text"
                 android:hint="@string/user"
-                android:layout_marginTop="32dp" />
+                android:layout_marginTop="16dp" />
 
             <EditText
                 android:id="@+id/password"
@@ -54,17 +55,57 @@
                 android:imeActionLabel="@string/action_sign_in_short"
                 android:imeActionId="@+id/login"
                 android:imeOptions="actionUnspecified"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="16dp"
                 android:editable="false" />
 
-            <Button android:id="@+id/sign_in_button"
-                android:layout_width="wrap_content"
+            <EditText
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/to_sign_in"
-                android:paddingLeft="32dp"
-                android:paddingRight="32dp"
-                android:layout_gravity="center_horizontal" />
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/response_text"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.68"
+                android:editable="false"
+                android:minLines="10"
+                android:background="#000000"
+                android:textColor="#BBBBBB"
+                android:textSize="10sp"
+                />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Limpiar"
+                    android:id="@+id/clear_button"
+                    android:layout_gravity="left"
+                    android:singleLine="true"
+                    android:gravity="left"
+                    android:visibility="invisible" />
+
+                <Button android:id="@+id/sign_in_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/to_sign_in"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:gravity="right" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notas!"
+                    android:id="@+id/pyde_button"
+                    android:clickable="false"
+                    android:visibility="invisible"
+                    android:gravity="clip_horizontal"
+                    android:layout_gravity="right" />
+            </LinearLayout>
 
         </LinearLayout>
 
