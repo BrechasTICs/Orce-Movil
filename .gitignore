@@ -27,10 +27,7 @@ gen-external-apklibs/
 target
 
 # gradle directory
-.gradle
-gradlew
-gradlew.bat
-gradle/
+.gradle/
 build/
 
 # OSX files
