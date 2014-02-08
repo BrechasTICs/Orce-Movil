@@ -2,14 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fiis.orcemovil" >
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-
         <activity
             android:name="com.fiis.orcemovil.FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -30,6 +29,10 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fiis.orcemovil.IntranetActivity"
+            android:label="@string/title_activity_intranet" >
         </activity>
     </application>
 

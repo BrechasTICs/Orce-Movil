@@ -36,16 +36,17 @@
     <string name="avg_lab">Promedio de Laboratorios</string>
     <string name="avg_mon">Promedio de Monografìas</string>
     <string name="avg_final">Promedio Final</string>
-
     <string name="error">ERROR</string>
     <string name="user_not_valid">Código no valido</string>
     <string name="pass_not_valid">Cóntraseña no valida</string>
     <string name="pass_wrong">Contraseña incorrecta</string>
     <string name="ok">OK</string>
     <string name="to_agree">Aceptar</string>
-
     <string name="url_login">http://www.orce.uni.edu.pe/m/api/login.json.php</string>
     <string name="url_cursos">http://www.orce.uni.edu.pe/m/api/cursos.json.php</string>
     <string name="url_notas">http://www.orce.uni.edu.pe/m/api/notas.json.php</string>
+    <string name="title_activity_intranet">IntranetActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
