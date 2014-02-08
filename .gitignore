@@ -59,7 +59,6 @@ proguard/
 
 # Android Studio
 .idea/
-*.gradle
 /*/local.properties
 /*/out
 /*/*/build
